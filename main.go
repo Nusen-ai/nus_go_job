@@ -5,5 +5,6 @@ import (
 )
 
 func main() {
-	basis.Job2TestPalindromeString()
+	// basis.Job2TestPalindromeString()
+	basis.Job1TestDemo()
 }
