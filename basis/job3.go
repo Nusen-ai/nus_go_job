@@ -2,6 +2,7 @@ package basis
 
 import "fmt"
 
+// 3.给定一个只包括 '('，')'，'{'，'}'，'['，']' 的字符串，判断字符串是否有效
 func isValid(s string) bool {
 	// 使用栈来解决括号匹配问题
 	stack := make([]rune, 0)
