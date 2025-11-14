@@ -20,8 +20,10 @@ func LongestCommonPrefix(strs []string) string {
 }
 func Job4Test() {
 	strs1 := []string{"flower", "flow", "flight"}
-	fmt.Println(LongestCommonPrefix(strs1))
+	fmt.Println(LongestCommonPrefix(strs1)) // fl
 	strs2 := []string{"dog", "racecar", "car"}
-	fmt.Println(LongestCommonPrefix(strs2))
+	fmt.Println(LongestCommonPrefix(strs2)) // ""
+	strs3 := []string{"a"}
+	fmt.Println(LongestCommonPrefix(strs3)) // a
 
 }
