@@ -7,5 +7,6 @@ import (
 func main() {
 	// basis.Job2TestPalindromeString()
 	// basis.Job1TestDemo()
-	basis.Job3Test()
+	// basis.Job3Test()
+	basis.Job4Test()
 }
