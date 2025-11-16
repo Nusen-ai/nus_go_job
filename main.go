@@ -10,5 +10,6 @@ func main() {
 	// basis.Job3Test()
 	// basis.Job4Test()
 	// basis.Job5Test()
-	basis.Job6Test()
+	// basis.Job6Test()
+	basis.Job7Test()
 }
