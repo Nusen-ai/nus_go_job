@@ -9,5 +9,6 @@ func main() {
 	// basis.Job1TestDemo()
 	// basis.Job3Test()
 	// basis.Job4Test()
-	basis.Job5Test()
+	// basis.Job5Test()
+	basis.Job6Test()
 }
