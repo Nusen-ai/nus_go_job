@@ -27,5 +27,5 @@ func twoSum(nums []int, target int) []int {
 func Job8Test() {
 	nums := []int{2, 7, 11, 15}
 	target := 13
-	fmt.Println(twoSum(nums, target))
+	fmt.Println(twoSum(nums, target)) // [0, 2]
 }
