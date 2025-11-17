@@ -1,4 +1,4 @@
-package basis
+package task1
 
 import "fmt"
 

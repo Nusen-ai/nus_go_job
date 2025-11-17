@@ -1,7 +1,7 @@
 package main
 
 import (
-	"nus_go_jo/advance"
+	advance "nus_go_jo/task2"
 )
 
 func main() {

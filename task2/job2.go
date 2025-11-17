@@ -1,4 +1,4 @@
-package advance
+package task2
 
 import "fmt"
 
