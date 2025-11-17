@@ -12,8 +12,8 @@ func doubleSlice(slicePtr *[]int) {
 
 func Job2TestDemo() {
 	numbers := []int{1, 2, 3, 4, 5}
-	fmt.Printf("修改前的切片: %v\n", numbers)
+	fmt.Printf("修改前的切片: %v\n", numbers) // 修改前的切片: [1 2 3 4 5]
 
 	doubleSlice(&numbers)
-	fmt.Printf("修改后的切片: %v\n", numbers)
+	fmt.Printf("修改后的切片: %v\n", numbers) // 修改后的切片: [2 4 6 8 10]
 }
