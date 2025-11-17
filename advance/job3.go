@@ -5,6 +5,7 @@ import (
 	"sync"
 )
 
+// 3. 创建两个协程，分别打印 1-10 的奇数和偶数
 func printOddNumbers(wg *sync.WaitGroup) {
 	defer wg.Done()
 	for i := 1; i <= 10; i += 2 {
