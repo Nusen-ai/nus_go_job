@@ -23,5 +23,6 @@ func main() {
 	// task2.Job8TestDemo()
 	// task2.Job9TestDemo()
 	// task2.Job10TestDemo()
-	sqlx.Sqlx1TestDemo()
+	// sqlx.Sqlx1TestDemo()
+	sqlx.Sqlx2TestDemo()
 }
