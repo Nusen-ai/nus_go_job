@@ -1,6 +1,8 @@
 package main
 
-import "nus_go_jo/task2"
+import (
+	"nus_go_jo/sqlx"
+)
 
 func main() {
 	// task1.Job1TestDemo()
@@ -20,5 +22,6 @@ func main() {
 	// task2.Job7TestDemo()
 	// task2.Job8TestDemo()
 	// task2.Job9TestDemo()
-	task2.Job10TestDemo()
+	// task2.Job10TestDemo()
+	sqlx.Sqlx1TestDemo()
 }
