@@ -1,7 +1,7 @@
 package main
 
 import (
-	"nus_go_jo/sqlx"
+	"nus_go_jo/gorm"
 )
 
 func main() {
@@ -24,5 +24,8 @@ func main() {
 	// task2.Job9TestDemo()
 	// task2.Job10TestDemo()
 	// sqlx.Sqlx1TestDemo()
-	sqlx.Sqlx2TestDemo()
+	// sqlx.Sqlx2TestDemo()
+	// gorm.BlogSystemTestDemo()
+	gorm.BlogSystemTestDemo()
+	gorm.BlogSystem3TestDemo()
 }
